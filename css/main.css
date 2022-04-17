@@ -1,0 +1,356 @@
+/* Import de la police de titre */
+
+@import url('https://fonts.googleapis.com/css2?family=Updock&display=swap');
+
+/* Définir que html représente 100% de la hauteur du navigateur */
+html {
+    height:100%; 
+}
+
+body {
+    height:100vh; /*100% de la zone utile "viewport"*/
+    margin:0;
+    font-family: "Arial", "Helvetica", "sans-serif";
+    margin:1vh;
+}
+
+header {
+    height:25%;
+    background-color:#0C1B33;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+hgroup {
+    height:100%;
+}
+
+h1 {
+    height:15%;
+    color:#982649;
+    letter-spacing: .5rem;
+    font-family: "Updock","Sans sherif";
+    font-size: 8vh;
+}
+
+#h2_maintitle {
+    color:#fff;
+    letter-spacing: .5rem;
+    font-family: "Updock","Sans sherif";
+    font-size: 6vh;
+    margin-right: 5vh;
+}
+
+#img_head1 {
+    height:100%;
+}
+
+#img_head2 {
+    height:100%;
+}
+
+#disposition_horiz {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+
+#pitch {
+    margin-top:10vh;
+    margin-left:5vh;
+    margin-right:-60vh;
+    height:30%;
+    background-color:#DA4167;
+    color:#FFF;
+    width:40%;
+    font-size:2.5vh;
+}
+
+#img_pitch {
+    height:20vh;
+}
+
+#p_pitch {
+    margin:4vh;
+}
+
+.police_vert_clair {
+    color:#88D18A;
+}
+
+#img_skills {
+    position:relative;
+    margin:10% 5%;
+    height:35vh;
+    top:7vh;
+    left:30vh;
+}
+
+#contact{
+    margin-left:20%;
+    display: flex;
+}
+
+#h2_contact{
+    color:#88D18A;
+}
+
+#icone_Linkedin{
+    height:5%;
+    margin:0;
+}
+
+.h2_skills{
+    Text-align:center;
+    margin-top:-30%;
+    margin-bottom:5%;
+    background-color:#0C1B33;
+    color:#fff;
+    font-weight:bold;
+    font-family:"Updock","Sans sherif";
+    font-size:8vh;
+    letter-spacing: .2rem;
+}
+
+#strategy_head{
+    width:50%;
+    margin-top:5%;
+    margin-bottom:5%;
+    background-color:#037971;
+    color:#fff;
+    height:15%;
+    text-align: center;
+    border-radius:30px;
+    display: flex;
+}
+
+#img_Strat_desc{
+    width:25%;
+    margin-left:5%;
+}
+
+#strategy_art{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left:1%;
+}
+.Strategy_head2{
+    background-color: #88D18A;
+    margin-top:2%;
+    height:15%;
+    color:#fff;
+    text-align: center;
+}
+
+#fin_head{
+    width:50%;
+    margin-top:5%;
+    margin-bottom:5%;
+    background-color:#037971;
+    color:#fff;
+    height:20%;
+    text-align: center;
+    border-radius:30px;
+    display: flex;
+}
+
+#img_fin_desc{
+    width:30%;
+    margin-left:5%;
+}
+
+#img_mgt_icone{
+    width:8%;
+    margin-left:5%;
+}
+
+#mgt_art{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left:1%;
+}
+
+#mgt_head{
+    width:50%;
+    margin-top:5%;
+    margin-bottom:5%;
+    background-color:#037971;
+    color:#fff;
+    height:20%;
+    text-align: center;
+    border-radius:30px;
+    display: flex;
+}
+
+#img_mgt_desc{
+    width:30%;
+    margin-left:5%;
+}
+
+#mgt_art{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left:1%;
+}
+
+.mgt_head2{
+    background-color: #037971;
+    margin-top:2%;
+    height:15%;
+    color:#fff;
+    text-align: center;
+}
+
+ol{
+    list-style-type: square;
+}
+
+.police_vert_clair{
+    color:#88D18A;
+}
+.police_rose_clair{
+    color:#DA4167;
+}
+.police_rose_sombre{
+    color:#982649;
+}
+.police_vert_sombre{
+    color:#0C1B33;
+}
+
+.h2_Savoir_etre{
+    Text-align:center;
+    margin-top:5%;
+    margin-bottom:5%;
+    background-color:#982649;
+    color:#fff;
+    font-weight:bold;
+    font-family:"Updock","Sans sherif";
+    font-size:8vh;
+    letter-spacing: .2rem;
+}
+
+#Savoir_etre_section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.img_Savoir_etre{
+    width:70%;
+    margin:10%;
+}
+.Savoir_etre_head{
+    width:15%;
+    height:20%;
+    margin-top:5%;
+    margin-left:15%;
+    margin-bottom:5%;
+    background-color:#DA4167;
+    color:#fff;
+    width:60%;
+    display: flex;
+    align-items: center;
+
+}
+.Savoir_etre_art{
+    width:25%;
+}
+
+.h2_trust{
+    Text-align:center;
+    margin-top:5%;
+    margin-bottom:5%;
+    background-color:#0C1B33;
+    color:#fff;
+    font-weight:bold;
+    font-family:"Updock","Sans sherif";
+    font-size:8vh;
+    letter-spacing: .2rem;
+}
+
+.img_confiance{
+    margin-top: 1rem;
+    margin-right:1rem;
+    height: 7rem;
+    justify-content: space-evenly;
+  }
+
+.h2_contributions{
+    Text-align:center;
+    margin-top:5%;
+    margin-bottom:5%;
+    background-color:#88D18A;
+    color:#fff;
+    font-weight:bold;
+    font-family:"Updock","Sans sherif";
+    font-size:8vh;
+    letter-spacing: .2rem;
+}
+
+#Section_contributions{
+    display: flex;
+    flex-wrap:wrap;
+    padding:1rem;
+    width:60%;
+    margin-left:20%;
+}
+#planisense{
+    margin-top: 1%;
+    margin-right: 5%;
+    margin-left:5%;
+    border:#143642 solid .1rem;
+    background-image:linear-gradient(#FFF,#88D18A);
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.desc_job{
+    margin-left:1%;
+}
+
+#runview{
+    margin-top: 1rem;
+    margin-right: 5%;
+    margin-left:5%; 
+    border:#143642 solid .1rem;
+    background-image:linear-gradient(#FFF,#0C1B33);
+    display:flex;
+    flex-wrap:wrap;
+}
+
+#solvay{
+    margin-top: 1rem;
+    margin-right: 5%;
+    margin-left:5%;
+    border:#143642 solid .1rem;
+    background-image:linear-gradient(#FFF,#88D18A);
+    display:flex;
+    flex-wrap:wrap;
+}
+
+#ey{
+    margin-top: 1rem;
+    margin-right: 5%;
+    margin-left:5%;
+    border:#143642 solid .1rem;
+    background-image:linear-gradient(#FFF,#0C1B33);
+    display:flex;
+    flex-wrap:wrap;
+}
+
+h3{
+    margin-top:7%;
+    margin-left:7%;
+}
+
+footer{
+    color:#fff;
+    background-color:#0C1B33;
+    width:100%;
+    margin-top:10vh;
+    margin-left:2vh;
+}
