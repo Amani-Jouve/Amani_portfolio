@@ -50,25 +50,29 @@ h1 {
     height:100%;
 }
 
-#disposition_horiz {
+#disposition_horiz{
+    position:relative;
+    top:20%;
+    bottom:20%;
     display:flex;
-    flex-wrap:wrap;
-    justify-content: space-evenly;
+    flex-wrap:wrap;    
 }
 
 #pitch {
-    margin-top:10vh;
-    margin-left:5vh;
-    margin-right:-60vh;
+   position:relative;
+   top:5%;
+   left:5%;
     height:30%;
     background-color:#DA4167;
     color:#FFF;
     width:40%;
     font-size:2.5vh;
+    display:block;
 }
 
 #img_pitch {
     height:20vh;
+    display:block;
 }
 
 #p_pitch {
@@ -79,31 +83,29 @@ h1 {
     color:#88D18A;
 }
 
-#img_skills {
+#img_skills_global {
     position:relative;
-    margin:10% 5%;
-    height:35vh;
-    top:7vh;
-    left:30vh;
+    left:10%;
+    height:50vh;
+    display:block;
 }
 
 #contact{
-    margin-left:20%;
-    display: flex;
-}
-
-#h2_contact{
-    color:#88D18A;
+    display: block;
+    position:relative;
+    top:80%;
+    left:-31%;
+    color:#ad7384;
 }
 
 #icone_Linkedin{
-    height:5%;
-    margin:0;
+    height:5vh;
+    display:block;
 }
 
 .h2_skills{
     Text-align:center;
-    margin-top:-30%;
+    margin-top:20%;
     margin-bottom:5%;
     background-color:#0C1B33;
     color:#fff;
@@ -218,7 +220,7 @@ ol{
 .police_rose_sombre{
     color:#982649;
 }
-.police_vert_sombre{
+.police_bleu{
     color:#0C1B33;
 }
 
@@ -244,7 +246,6 @@ ol{
     margin:10%;
 }
 .Savoir_etre_head{
-    width:15%;
     height:20%;
     margin-top:5%;
     margin-left:15%;
@@ -254,6 +255,8 @@ ol{
     width:60%;
     display: flex;
     align-items: center;
+    text-align: center;
+    font-size:100%;
 
 }
 .Savoir_etre_art{
@@ -308,10 +311,6 @@ ol{
     flex-wrap:wrap;
 }
 
-.desc_job{
-    margin-left:1%;
-}
-
 #runview{
     margin-top: 1rem;
     margin-right: 5%;
@@ -352,5 +351,4 @@ footer{
     background-color:#0C1B33;
     width:100%;
     margin-top:10vh;
-    margin-left:2vh;
 }
