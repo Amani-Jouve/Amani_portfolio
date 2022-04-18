@@ -1,0 +1,118 @@
+/* Import de la police de titre */
+
+@import url('https://fonts.googleapis.com/css2?family=Updock&display=swap');
+
+html {
+    height: 100%;
+}
+
+header {
+    height: 25%;
+    background-color: #037971;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+body {
+    height: 100vh;
+    /*100% de la zone utile "viewport"*/
+    margin: 0;
+    font-family: "Arial", "Helvetica", "sans-serif";
+    margin: 1vh;
+}
+
+hgroup {
+    margin-top: 2%;
+    height: 100%;
+}
+
+h1 {
+    height: 10%;
+    color: #88D18A;
+    letter-spacing: .5rem;
+    font-family: "Updock", "Sans sherif";
+    font-size: 8vh;
+}
+
+#h2_maintitle {
+    color: #fff;
+    letter-spacing: .5rem;
+    font-family: "Updock", "Sans sherif";
+    font-size: 6vh;
+    margin-right: 5vh;
+    margin-top: 5vh;
+}
+
+#img_head3 {
+    height: 100%;
+}
+
+#img_head4 {
+    height: 100%;
+}
+
+.fil {
+    margin-top: 5%;
+    margin-left: -70%;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#contexte {
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#card_Plani {
+    border: #037971 solid .1rem;
+
+}
+
+#card_enjeux {
+    border: #037971 solid .1rem;
+    background-color: #88D18A;
+}
+
+#contrib {
+    margin-top: 4rem;
+    margin-right: 10rem;
+    background-color: #037971;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    font-family: "arial", "Sans sherif";
+}
+
+#contrib_detail {
+    margin-left: 10rem;
+}
+
+#h2_contrib {
+    font-size: larger;
+}
+
+.marge {
+    margin-top: 2rem;
+}
+
+#contrib_detail {
+    margin: 0;
+    display: block;
+}
+
+#img_contri_strat {
+    width: 30%;
+}
+
+footer {
+    color: #fff;
+    background-color: #0C1B33;
+    width: 100%;
+    margin-top: 10vh;
+}
