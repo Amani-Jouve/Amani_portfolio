@@ -253,9 +253,9 @@ ol {
 }
 
 .h2_Savoir_etre {
-    Text-align: center;
     margin-top: 5%;
     margin-bottom: 5%;
+    left:10%;
     background-color: #982649;
     color: #fff;
     font-weight: bold;
